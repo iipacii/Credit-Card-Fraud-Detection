@@ -1,0 +1,311 @@
+{
+  "user_profile": {
+    "user_id": "21ae78ec-2c3a-4809-b9af-eaa5854c277f",
+    "archetype": "Gig Economy Worker",
+    "home_address": {
+      "latitude": 31.8271,
+      "longitude": -100.7313
+    },
+    "preferred_categories": [
+      "Gas",
+      "Restaurant",
+      "Grocery",
+      "Automotive",
+      "Coffee Shops"
+    ],
+    "avg_transaction_amount": 100.0,
+    "credit_score": 750
+  },
+  "transactions": [
+    {
+      "transaction_id": "TX001",
+      "timestamp": "2024-11-04 08:15:00",
+      "amount": 35.75,
+      "merchant": {
+        "id": "M001",
+        "name": "Quick Stop Gas Station",
+        "category": "Gas",
+        "latitude": 31.835,
+        "longitude": -100.736
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 31.835,
+        "longitude": -100.736,
+        "distance_from_home": 3.0
+      },
+      "device_info": {
+        "device_id": "D001",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX002",
+      "timestamp": "2024-11-03 19:45:00",
+      "amount": 45.5,
+      "merchant": {
+        "id": "M002",
+        "name": "Joe's Coffee Shop",
+        "category": "Coffee Shops",
+        "latitude": 31.8285,
+        "longitude": -100.734
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 31.8285,
+        "longitude": -100.734,
+        "distance_from_home": 1.5
+      },
+      "device_info": {
+        "device_id": "D002",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX003",
+      "timestamp": "2024-11-01 12:00:00",
+      "amount": 78.99,
+      "merchant": {
+        "id": "M003",
+        "name": "Supermarket",
+        "category": "Grocery",
+        "latitude": 31.821,
+        "longitude": -100.74
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 31.821,
+        "longitude": -100.74,
+        "distance_from_home": 4.0
+      },
+      "device_info": {
+        "device_id": "D003",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX004",
+      "timestamp": "2024-10-29 13:30:00",
+      "amount": 125.0,
+      "merchant": {
+        "id": "M004",
+        "name": "Fine Dine Restaurant",
+        "category": "Restaurant",
+        "latitude": 31.832,
+        "longitude": -100.7335
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 31.832,
+        "longitude": -100.7335,
+        "distance_from_home": 7.0
+      },
+      "device_info": {
+        "device_id": "D004",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX005",
+      "timestamp": "2024-10-27 17:00:00",
+      "amount": 20.5,
+      "merchant": {
+        "id": "M005",
+        "name": "Highway Auto Parts",
+        "category": "Automotive",
+        "latitude": 31.84,
+        "longitude": -100.725
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 31.84,
+        "longitude": -100.725,
+        "distance_from_home": 8.0
+      },
+      "device_info": {
+        "device_id": "D005",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX006",
+      "timestamp": "2024-10-26 09:15:00",
+      "amount": 180.25,
+      "merchant": {
+        "id": "M006",
+        "name": "Local Bakery Cafe",
+        "category": "Coffee Shops",
+        "latitude": 31.83,
+        "longitude": -100.738
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 31.83,
+        "longitude": -100.738,
+        "distance_from_home": 6.0
+      },
+      "device_info": {
+        "device_id": "D006",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": true
+    },
+    {
+      "transaction_id": "TX007",
+      "timestamp": "2024-10-24 20:30:00",
+      "amount": 50.0,
+      "merchant": {
+        "id": "M007",
+        "name": "Food Truck Delights",
+        "category": "Restaurant",
+        "latitude": 31.855,
+        "longitude": -100.74
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 31.855,
+        "longitude": -100.74,
+        "distance_from_home": 15.0
+      },
+      "device_info": {
+        "device_id": "D007",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX008",
+      "timestamp": "2024-10-22 11:00:00",
+      "amount": 95.0,
+      "merchant": {
+        "id": "M008",
+        "name": "Car Wash Express",
+        "category": "Automotive",
+        "latitude": 31.9,
+        "longitude": -100.7
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 31.9,
+        "longitude": -100.7,
+        "distance_from_home": 25.0
+      },
+      "device_info": {
+        "device_id": "D008",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX009",
+      "timestamp": "2024-10-20 14:45:00",
+      "amount": 130.0,
+      "merchant": {
+        "id": "M009",
+        "name": "Organic Store",
+        "category": "Grocery",
+        "latitude": 31.85,
+        "longitude": -100.735
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 31.85,
+        "longitude": -100.735,
+        "distance_from_home": 10.0
+      },
+      "device_info": {
+        "device_id": "D009",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX010",
+      "timestamp": "2024-10-19 16:15:00",
+      "amount": 200.0,
+      "merchant": {
+        "id": "M010",
+        "name": "Gas N' Go",
+        "category": "Gas",
+        "latitude": 31.82,
+        "longitude": -100.73
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 31.82,
+        "longitude": -100.73,
+        "distance_from_home": 2.5
+      },
+      "device_info": {
+        "device_id": "D010",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "user_profile": {
+    "user_id": "f31018dc-1da2-4077-b476-84f4ac82f756",
+    "archetype": "Digital Nomad",
+    "home_address": {
+      "latitude": 28.631715831087444,
+      "longitude": -82.35903540593586
+    },
+    "preferred_categories": [
+      "Travel",
+      "Coffee Shops",
+      "Co-working",
+      "Online Services",
+      "Restaurant"
+    ],
+    "avg_transaction_amount": 100.0,
+    "credit_score": 750
+  },
+  "transactions": [
+    {
+      "transaction_id": "TX001",
+      "timestamp": "2024-10-30 12:15:00",
+      "amount": 85.5,
+      "merchant": {
+        "id": "M001",
+        "name": "Local Cafe",
+        "category": "Coffee Shops",
+        "latitude": 28.6367,
+        "longitude": -82.369
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 28.6367,
+        "longitude": -82.369,
+        "distance_from_home": 2.5
+      },
+      "device_info": {
+        "device_id": "D001",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX002",
+      "timestamp": "2024-10-28 20:45:00",
+      "amount": 150.0,
+      "merchant": {
+        "id": "M002",
+        "name": "Fine Dining Restaurant",
+        "category": "Restaurant",
+        "latitude": 28.64,
+        "longitude": -82.37
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 28.64,
+        "longitude": -82.37,
+        "distance_from_home": 4.0
+      },
+      "device_info": {
+        "device_id": "D002",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX003",
+      "timestamp": "2024-10-25 15:30:00",
+      "amount": 70.75,
+      "merchant": {
+        "id": "M003",
+        "name": "National Coffee Chain",
+        "category": "Coffee Shops",
+        "latitude": 28.6345,
+        "longitude": -82.36
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 28.6345,
+        "longitude": -82.36,
+        "distance_from_home": 3.0
+      },
+      "device_info": {
+        "device_id": "D003",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX004",
+      "timestamp": "2024-10-20 09:00:00",
+      "amount": 320.0,
+      "merchant": {
+        "id": "M004",
+        "name": "Hotel Stay",
+        "category": "Travel",
+        "latitude": 28.5,
+        "longitude": -82.4
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 28.5,
+        "longitude": -82.4,
+        "distance_from_home": 25.0
+      },
+      "device_info": {
+        "device_id": "D004",
+        "type": "mobile",
+        "is_trusted": false
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "not_authenticated",
+        "attempts": 2
+      },
+      "is_fraud": true
+    },
+    {
+      "transaction_id": "TX005",
+      "timestamp": "2024-10-18 17:15:00",
+      "amount": 150.25,
+      "merchant": {
+        "id": "M005",
+        "name": "Car Rental Service",
+        "category": "Travel",
+        "latitude": 28.6,
+        "longitude": -82.35
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 28.6,
+        "longitude": -82.35,
+        "distance_from_home": 7.0
+      },
+      "device_info": {
+        "device_id": "D005",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX006",
+      "timestamp": "2024-10-15 14:00:00",
+      "amount": 58.4,
+      "merchant": {
+        "id": "M006",
+        "name": "Online Software Service",
+        "category": "Online Services",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "transaction_type": "online",
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "distance_from_home": 0.0
+      },
+      "device_info": {
+        "device_id": "D006",
+        "type": "desktop",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX007",
+      "timestamp": "2024-10-12 21:30:00",
+      "amount": 95.0,
+      "merchant": {
+        "id": "M007",
+        "name": "Digital Content Subscription",
+        "category": "Online Services",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "transaction_type": "online",
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "distance_from_home": 0.0
+      },
+      "device_info": {
+        "device_id": "D007",
+        "type": "desktop",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX008",
+      "timestamp": "2024-10-10 11:45:00",
+      "amount": 275.0,
+      "merchant": {
+        "id": "M008",
+        "name": "Local Co-working Space",
+        "category": "Co-working",
+        "latitude": 28.635,
+        "longitude": -82.3605
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 28.635,
+        "longitude": -82.3605,
+        "distance_from_home": 3.5
+      },
+      "device_info": {
+        "device_id": "D008",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX009",
+      "timestamp": "2024-10-05 19:00:00",
+      "amount": 140.0,
+      "merchant": {
+        "id": "M009",
+        "name": "Travel Booking Service",
+        "category": "Travel",
+        "latitude": 35.6895,
+        "longitude": 139.6917
+      },
+      "transaction_type": "online",
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "distance_from_home": 0.0
+      },
+      "device_info": {
+        "device_id": "D009",
+        "type": "desktop",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX010",
+      "timestamp": "2024-10-01 09:30:00",
+      "amount": 220.0,
+      "merchant": {
+        "id": "M010",
+        "name": "National Fast Food Chain",
+        "category": "Restaurant",
+        "latitude": 28.6315,
+        "longitude": -82.3705
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 28.6315,
+        "longitude": -82.3705,
+        "distance_from_home": 1.8
+      },
+      "device_info": {
+        "device_id": "D010",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": true
+    }
+  ]
+}

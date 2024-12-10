@@ -1,0 +1,311 @@
+{
+  "user_profile": {
+    "user_id": "b4bbf746-558b-442b-9467-38dd326fdf93",
+    "archetype": "Urban Professional",
+    "home_address": {
+      "latitude": 36.8166,
+      "longitude": -85.8591
+    },
+    "preferred_categories": [
+      "Restaurant",
+      "Transportation",
+      "Entertainment",
+      "Grocery",
+      "Coffee Shops"
+    ],
+    "avg_transaction_amount": 100.0,
+    "credit_score": 750
+  },
+  "transactions": [
+    {
+      "transaction_id": "TX001",
+      "timestamp": "2024-11-01 08:15:00",
+      "amount": 75.5,
+      "merchant": {
+        "id": "M001",
+        "name": "Local Diner",
+        "category": "Restaurant",
+        "latitude": 36.82,
+        "longitude": -85.85
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 36.82,
+        "longitude": -85.85,
+        "distance_from_home": 2.5
+      },
+      "device_info": {
+        "device_id": "D001",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX002",
+      "timestamp": "2024-11-02 12:30:00",
+      "amount": 120.99,
+      "merchant": {
+        "id": "M002",
+        "name": "National Chain",
+        "category": "Restaurant",
+        "latitude": 36.815,
+        "longitude": -85.855
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 36.815,
+        "longitude": -85.855,
+        "distance_from_home": 0.8
+      },
+      "device_info": {
+        "device_id": "D002",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX003",
+      "timestamp": "2024-11-03 18:45:00",
+      "amount": 200.75,
+      "merchant": {
+        "id": "M003",
+        "name": "Movie Theater",
+        "category": "Entertainment",
+        "latitude": 36.8155,
+        "longitude": -85.86
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 36.8155,
+        "longitude": -85.86,
+        "distance_from_home": 1.0
+      },
+      "device_info": {
+        "device_id": "D003",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX004",
+      "timestamp": "2024-11-04 08:10:00",
+      "amount": 45.0,
+      "merchant": {
+        "id": "M004",
+        "name": "Local Cafe",
+        "category": "Coffee Shops",
+        "latitude": 36.818,
+        "longitude": -85.858
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 36.818,
+        "longitude": -85.858,
+        "distance_from_home": 3.2
+      },
+      "device_info": {
+        "device_id": "D004",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX005",
+      "timestamp": "2024-11-05 14:00:00",
+      "amount": 90.25,
+      "merchant": {
+        "id": "M005",
+        "name": "Grocery Store",
+        "category": "Grocery",
+        "latitude": 36.819,
+        "longitude": -85.861
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 36.819,
+        "longitude": -85.861,
+        "distance_from_home": 4.0
+      },
+      "device_info": {
+        "device_id": "D005",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX006",
+      "timestamp": "2024-11-05 20:30:00",
+      "amount": 150.0,
+      "merchant": {
+        "id": "M006",
+        "name": "Concert Venue",
+        "category": "Entertainment",
+        "latitude": 36.825,
+        "longitude": -85.8505
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 36.825,
+        "longitude": -85.8505,
+        "distance_from_home": 6.0
+      },
+      "device_info": {
+        "device_id": "D006",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX007",
+      "timestamp": "2024-11-06 12:15:00",
+      "amount": 60.0,
+      "merchant": {
+        "id": "M007",
+        "name": "Organic Store",
+        "category": "Grocery",
+        "latitude": 36.81,
+        "longitude": -85.84
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 36.81,
+        "longitude": -85.84,
+        "distance_from_home": 7.0
+      },
+      "device_info": {
+        "device_id": "D007",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX008",
+      "timestamp": "2024-11-07 19:00:00",
+      "amount": 135.5,
+      "merchant": {
+        "id": "M008",
+        "name": "Wholesale Club",
+        "category": "Grocery",
+        "latitude": 36.83,
+        "longitude": -85.8595
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 36.83,
+        "longitude": -85.8595,
+        "distance_from_home": 9.0
+      },
+      "device_info": {
+        "device_id": "D008",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX009",
+      "timestamp": "2024-11-08 14:30:00",
+      "amount": 250.0,
+      "merchant": {
+        "id": "M009",
+        "name": "Gourmet Bakery",
+        "category": "Coffee Shops",
+        "latitude": 36.812,
+        "longitude": -85.852
+      },
+      "transaction_type": "online",
+      "location": {
+        "latitude": 36.812,
+        "longitude": -85.852,
+        "distance_from_home": 5.5
+      },
+      "device_info": {
+        "device_id": "D009",
+        "type": "desktop",
+        "is_trusted": false
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "not_authenticated",
+        "attempts": 2
+      },
+      "is_fraud": true
+    },
+    {
+      "transaction_id": "TX010",
+      "timestamp": "2024-11-09 19:45:00",
+      "amount": 110.25,
+      "merchant": {
+        "id": "M010",
+        "name": "Local Bakery",
+        "category": "Bakery Cafe",
+        "latitude": 36.8175,
+        "longitude": -85.8588
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 36.8175,
+        "longitude": -85.8588,
+        "distance_from_home": 4.2
+      },
+      "device_info": {
+        "device_id": "D010",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    }
+  ]
+}

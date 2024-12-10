@@ -1,0 +1,312 @@
+{
+  "user_profile": {
+    "user_id": "05c668c7-bb80-43ef-895b-1490a2f8ba5f",
+    "archetype": "Retiree",
+    "home_address": {
+      "latitude": 25.1042,
+      "longitude": -81.0001
+    },
+    "preferred_categories": [
+      "Healthcare",
+      "Grocery",
+      "Restaurant",
+      "Retail",
+      "Pharmacy",
+      "Home Improvement"
+    ],
+    "avg_transaction_amount": 100.0,
+    "credit_score": 750
+  },
+  "transactions": [
+    {
+      "transaction_id": "TX001",
+      "timestamp": "2024-11-02 09:15:00",
+      "amount": 45.75,
+      "merchant": {
+        "id": "M001",
+        "name": "Sunshine Pharmacy",
+        "category": "Pharmacy",
+        "latitude": 25.11,
+        "longitude": -80.995
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 25.11,
+        "longitude": -80.995,
+        "distance_from_home": 3.3
+      },
+      "device_info": {
+        "device_id": "D001",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX002",
+      "timestamp": "2024-11-03 12:00:00",
+      "amount": 120.5,
+      "merchant": {
+        "id": "M002",
+        "name": "Gourmet Restaurant",
+        "category": "Restaurant",
+        "latitude": 25.1025,
+        "longitude": -81.0005
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 25.1025,
+        "longitude": -81.0005,
+        "distance_from_home": 1.0
+      },
+      "device_info": {
+        "device_id": "D002",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX003",
+      "timestamp": "2024-11-01 14:45:00",
+      "amount": 85.2,
+      "merchant": {
+        "id": "M003",
+        "name": "Local Grocery",
+        "category": "Grocery",
+        "latitude": 25.105,
+        "longitude": -81.002
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 25.105,
+        "longitude": -81.002,
+        "distance_from_home": 1.8
+      },
+      "device_info": {
+        "device_id": "D003",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX004",
+      "timestamp": "2024-11-04 18:30:00",
+      "amount": 175.0,
+      "merchant": {
+        "id": "M004",
+        "name": "Home Improvement Store",
+        "category": "Home Improvement",
+        "latitude": 25.099,
+        "longitude": -80.998
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 25.099,
+        "longitude": -80.998,
+        "distance_from_home": 4.5
+      },
+      "device_info": {
+        "device_id": "D004",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX005",
+      "timestamp": "2024-11-02 15:45:00",
+      "amount": 60.4,
+      "merchant": {
+        "id": "M005",
+        "name": "Dental Office",
+        "category": "Healthcare",
+        "latitude": 25.1065,
+        "longitude": -81.003
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 25.1065,
+        "longitude": -81.003,
+        "distance_from_home": 2.0
+      },
+      "device_info": {
+        "device_id": "D005",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX006",
+      "timestamp": "2024-11-03 17:15:00",
+      "amount": 95.0,
+      "merchant": {
+        "id": "M006",
+        "name": "Supermarket",
+        "category": "Grocery",
+        "latitude": 25.107,
+        "longitude": -80.994
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 25.107,
+        "longitude": -80.994,
+        "distance_from_home": 3.0
+      },
+      "device_info": {
+        "device_id": "D006",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX007",
+      "timestamp": "2024-10-30 11:30:00",
+      "amount": 150.75,
+      "merchant": {
+        "id": "M007",
+        "name": "Garden Center",
+        "category": "Home Improvement",
+        "latitude": 25.1105,
+        "longitude": -81.005
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 25.1105,
+        "longitude": -81.005,
+        "distance_from_home": 4.0
+      },
+      "device_info": {
+        "device_id": "D007",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX008",
+      "timestamp": "2024-11-05 14:00:00",
+      "amount": 30.0,
+      "merchant": {
+        "id": "M008",
+        "name": "Food Truck",
+        "category": "Restaurant",
+        "latitude": 25.108,
+        "longitude": -80.997
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 25.108,
+        "longitude": -80.997,
+        "distance_from_home": 5.0
+      },
+      "device_info": {
+        "device_id": "D008",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX009",
+      "timestamp": "2024-11-01 09:00:00",
+      "amount": 200.0,
+      "merchant": {
+        "id": "M009",
+        "name": "Wholesale Club",
+        "category": "Retail",
+        "latitude": 25.103,
+        "longitude": -80.99
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 25.103,
+        "longitude": -80.99,
+        "distance_from_home": 6.0
+      },
+      "device_info": {
+        "device_id": "D009",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX010",
+      "timestamp": "2024-10-29 19:00:00",
+      "amount": 150.0,
+      "merchant": {
+        "id": "M010",
+        "name": "Department Store",
+        "category": "Retail",
+        "latitude": 25.12,
+        "longitude": -81.01
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 25.12,
+        "longitude": -81.01,
+        "distance_from_home": 12.0
+      },
+      "device_info": {
+        "device_id": "D010",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    }
+  ]
+}

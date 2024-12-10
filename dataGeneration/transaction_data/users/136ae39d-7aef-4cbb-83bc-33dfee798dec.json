@@ -1,0 +1,310 @@
+{
+  "user_profile": {
+    "user_id": "136ae39d-7aef-4cbb-83bc-33dfee798dec",
+    "archetype": "Frugal Minimalist",
+    "home_address": {
+      "latitude": 35.9198,
+      "longitude": -113.4626
+    },
+    "preferred_categories": [
+      "Grocery",
+      "Public Transport",
+      "Discount Stores",
+      "Utilities"
+    ],
+    "avg_transaction_amount": 75.0,
+    "credit_score": 750
+  },
+  "transactions": [
+    {
+      "transaction_id": "TX001",
+      "timestamp": "2024-10-15 11:15:00",
+      "amount": 45.8,
+      "merchant": {
+        "id": "M001",
+        "name": "Local Supermarket",
+        "category": "Grocery",
+        "latitude": 35.925,
+        "longitude": -113.455
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 35.925,
+        "longitude": -113.455,
+        "distance_from_home": 3.0
+      },
+      "device_info": {
+        "device_id": "D001",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX002",
+      "timestamp": "2024-10-20 12:45:00",
+      "amount": 102.5,
+      "merchant": {
+        "id": "M002",
+        "name": "Wholesale Club",
+        "category": "Grocery",
+        "latitude": 35.9,
+        "longitude": -113.48
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 35.9,
+        "longitude": -113.48,
+        "distance_from_home": 7.5
+      },
+      "device_info": {
+        "device_id": "D002",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX003",
+      "timestamp": "2024-10-23 14:00:00",
+      "amount": 55.25,
+      "merchant": {
+        "id": "M003",
+        "name": "City Public Transport",
+        "category": "Public Transport",
+        "latitude": 35.91,
+        "longitude": -113.46
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 35.91,
+        "longitude": -113.46,
+        "distance_from_home": 4.0
+      },
+      "device_info": {
+        "device_id": "D003",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX004",
+      "timestamp": "2024-10-28 16:30:00",
+      "amount": 67.99,
+      "merchant": {
+        "id": "M004",
+        "name": "Discount Store",
+        "category": "Discount Stores",
+        "latitude": 35.915,
+        "longitude": -113.457
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 35.915,
+        "longitude": -113.457,
+        "distance_from_home": 2.5
+      },
+      "device_info": {
+        "device_id": "D004",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX005",
+      "timestamp": "2024-10-30 15:00:00",
+      "amount": 23.5,
+      "merchant": {
+        "id": "M005",
+        "name": "Local Utilities",
+        "category": "Utilities",
+        "latitude": 35.93,
+        "longitude": -113.47
+      },
+      "transaction_type": "online",
+      "location": {
+        "latitude": 35.93,
+        "longitude": -113.47,
+        "distance_from_home": 4.5
+      },
+      "device_info": {
+        "device_id": "D005",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX006",
+      "timestamp": "2024-11-01 11:15:00",
+      "amount": 37.89,
+      "merchant": {
+        "id": "M006",
+        "name": "Grocery Outlet",
+        "category": "Grocery",
+        "latitude": 35.9125,
+        "longitude": -113.463
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 35.9125,
+        "longitude": -113.463,
+        "distance_from_home": 3.8
+      },
+      "device_info": {
+        "device_id": "D006",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX007",
+      "timestamp": "2024-11-03 10:30:00",
+      "amount": 72.0,
+      "merchant": {
+        "id": "M007",
+        "name": "Local Supermarket",
+        "category": "Grocery",
+        "latitude": 35.922,
+        "longitude": -113.472
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 35.922,
+        "longitude": -113.472,
+        "distance_from_home": 6.0
+      },
+      "device_info": {
+        "device_id": "D007",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX008",
+      "timestamp": "2024-11-04 13:00:00",
+      "amount": 150.0,
+      "merchant": {
+        "id": "M008",
+        "name": "City Discount Shop",
+        "category": "Discount Stores",
+        "latitude": 35.95,
+        "longitude": -113.465
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 35.95,
+        "longitude": -113.465,
+        "distance_from_home": 8.5
+      },
+      "device_info": {
+        "device_id": "D008",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX009",
+      "timestamp": "2024-11-05 09:00:00",
+      "amount": 12.99,
+      "merchant": {
+        "id": "M009",
+        "name": "Local Coffee Shop",
+        "category": "Grocery",
+        "latitude": 35.903,
+        "longitude": -113.47
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 35.903,
+        "longitude": -113.47,
+        "distance_from_home": 4.0
+      },
+      "device_info": {
+        "device_id": "D009",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX010",
+      "timestamp": "2024-11-05 14:30:00",
+      "amount": 80.0,
+      "merchant": {
+        "id": "M010",
+        "name": "City Utility Provider",
+        "category": "Utilities",
+        "latitude": 35.896,
+        "longitude": -113.462
+      },
+      "transaction_type": "online",
+      "location": {
+        "latitude": 35.896,
+        "longitude": -113.462,
+        "distance_from_home": 2.3
+      },
+      "device_info": {
+        "device_id": "D010",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    }
+  ]
+}

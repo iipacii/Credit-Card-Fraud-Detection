@@ -1,0 +1,35 @@
+{
+  "name": "admfrontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@radix-ui/react-progress": "^1.1.0",
+    "class-variance-authority": "^0.7.1",
+    "csv-parse": "^5.6.0",
+    "dotenv": "^16.4.7",
+    "lucide": "^0.464.0",
+    "lucide-react": "^0.464.0",
+    "next": "14.2.19",
+    "radix-ui": "^1.0.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "recharts": "^2.14.1",
+    "tailwind-merge": "^2.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.19",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

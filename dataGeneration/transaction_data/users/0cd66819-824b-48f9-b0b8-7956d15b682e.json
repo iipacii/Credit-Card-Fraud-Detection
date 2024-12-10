@@ -1,0 +1,311 @@
+{
+  "user_profile": {
+    "user_id": "0cd66819-824b-48f9-b0b8-7956d15b682e",
+    "archetype": "Small Business Owner",
+    "home_address": {
+      "latitude": 39.8959,
+      "longitude": -123.5091
+    },
+    "preferred_categories": [
+      "Office Supplies",
+      "Professional Services",
+      "Restaurant",
+      "Hardware",
+      "Wholesale"
+    ],
+    "avg_transaction_amount": 550.0,
+    "credit_score": 750
+  },
+  "transactions": [
+    {
+      "transaction_id": "TX001",
+      "timestamp": "2024-10-10 09:15:00",
+      "amount": 450.75,
+      "merchant": {
+        "id": "M001",
+        "name": "Local Office Supply",
+        "category": "Office Supplies",
+        "latitude": 39.905,
+        "longitude": -123.51
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 39.905,
+        "longitude": -123.51,
+        "distance_from_home": 1.5
+      },
+      "device_info": {
+        "device_id": "D001",
+        "type": "desktop",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX002",
+      "timestamp": "2024-10-12 12:45:00",
+      "amount": 670.9,
+      "merchant": {
+        "id": "M002",
+        "name": "Professional Printing Service",
+        "category": "Professional Services",
+        "latitude": 39.895,
+        "longitude": -123.513
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 39.895,
+        "longitude": -123.513,
+        "distance_from_home": 2.0
+      },
+      "device_info": {
+        "device_id": "D002",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX003",
+      "timestamp": "2024-10-14 18:00:00",
+      "amount": 320.0,
+      "merchant": {
+        "id": "M003",
+        "name": "Hardware Depot",
+        "category": "Hardware",
+        "latitude": 39.9,
+        "longitude": -123.507
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 39.9,
+        "longitude": -123.507,
+        "distance_from_home": 3.5
+      },
+      "device_info": {
+        "device_id": "D003",
+        "type": "tablet",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX004",
+      "timestamp": "2024-10-16 14:30:00",
+      "amount": 585.2,
+      "merchant": {
+        "id": "M004",
+        "name": "Local Diner",
+        "category": "Restaurant",
+        "latitude": 39.895,
+        "longitude": -123.515
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 39.895,
+        "longitude": -123.515,
+        "distance_from_home": 1.1
+      },
+      "device_info": {
+        "device_id": "D004",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX005",
+      "timestamp": "2024-10-18 08:15:00",
+      "amount": 150.0,
+      "merchant": {
+        "id": "M005",
+        "name": "Fast Food Takeout",
+        "category": "Restaurant",
+        "latitude": 39.8965,
+        "longitude": -123.5115
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 39.8965,
+        "longitude": -123.5115,
+        "distance_from_home": 0.8
+      },
+      "device_info": {
+        "device_id": "D005",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX006",
+      "timestamp": "2024-10-20 11:00:00",
+      "amount": 895.99,
+      "merchant": {
+        "id": "M006",
+        "name": "Wholesale Supplies Co.",
+        "category": "Wholesale",
+        "latitude": 39.88,
+        "longitude": -123.525
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 39.88,
+        "longitude": -123.525,
+        "distance_from_home": 7.5
+      },
+      "device_info": {
+        "device_id": "D006",
+        "type": "desktop",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX007",
+      "timestamp": "2024-10-25 17:30:00",
+      "amount": 720.0,
+      "merchant": {
+        "id": "M007",
+        "name": "Out of Town Hardware",
+        "category": "Hardware",
+        "latitude": 39.78,
+        "longitude": -123.65
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 39.78,
+        "longitude": -123.65,
+        "distance_from_home": 35.0
+      },
+      "device_info": {
+        "device_id": "D007",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX008",
+      "timestamp": "2024-10-28 15:00:00",
+      "amount": 512.5,
+      "merchant": {
+        "id": "M008",
+        "name": "Tech Supplies Direct",
+        "category": "Office Supplies",
+        "latitude": 39.95,
+        "longitude": -123.6
+      },
+      "transaction_type": "online",
+      "location": {
+        "latitude": 39.95,
+        "longitude": -123.6,
+        "distance_from_home": 20.0
+      },
+      "device_info": {
+        "device_id": "D008",
+        "type": "desktop",
+        "is_trusted": false
+      },
+      "authentication": {
+        "cvv_provided": false,
+        "three_d_secure": "not_authenticated",
+        "attempts": 3
+      },
+      "is_fraud": true
+    },
+    {
+      "transaction_id": "TX009",
+      "timestamp": "2024-10-29 19:00:00",
+      "amount": 275.0,
+      "merchant": {
+        "id": "M009",
+        "name": "Catering Service Co.",
+        "category": "Professional Services",
+        "latitude": 39.97,
+        "longitude": -123.7
+      },
+      "transaction_type": "online",
+      "location": {
+        "latitude": 39.97,
+        "longitude": -123.7,
+        "distance_from_home": 40.0
+      },
+      "device_info": {
+        "device_id": "D009",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX010",
+      "timestamp": "2024-10-30 08:00:00",
+      "amount": 1000.0,
+      "merchant": {
+        "id": "M010",
+        "name": "Nationwide Supplies",
+        "category": "Wholesale",
+        "latitude": 39.9,
+        "longitude": -123.8
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 39.9,
+        "longitude": -123.8,
+        "distance_from_home": 45.0
+      },
+      "device_info": {
+        "device_id": "D010",
+        "type": "desktop",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    }
+  ]
+}

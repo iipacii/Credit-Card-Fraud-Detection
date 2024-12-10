@@ -1,0 +1,312 @@
+{
+  "user_profile": {
+    "user_id": "1ee371a1-1a5a-4507-b99c-cbef7d3f3dd0",
+    "archetype": "Suburban Family",
+    "home_address": {
+      "latitude": 37.717,
+      "longitude": -89.3989
+    },
+    "preferred_categories": [
+      "Grocery",
+      "Retail",
+      "Gas",
+      "Healthcare",
+      "Department Stores",
+      "Home Improvement"
+    ],
+    "avg_transaction_amount": 100.0,
+    "credit_score": 750
+  },
+  "transactions": [
+    {
+      "transaction_id": "TX001",
+      "timestamp": "2024-10-30 10:00:00",
+      "amount": 150.75,
+      "merchant": {
+        "id": "M001",
+        "name": "Organic Store",
+        "category": "Grocery",
+        "latitude": 37.71,
+        "longitude": -89.4
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 37.71,
+        "longitude": -89.4,
+        "distance_from_home": 3.0
+      },
+      "device_info": {
+        "device_id": "D001",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX002",
+      "timestamp": "2024-11-02 14:30:00",
+      "amount": 220.0,
+      "merchant": {
+        "id": "M002",
+        "name": "Supermarket",
+        "category": "Grocery",
+        "latitude": 37.7125,
+        "longitude": -89.398
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 37.7125,
+        "longitude": -89.398,
+        "distance_from_home": 1.5
+      },
+      "device_info": {
+        "device_id": "D002",
+        "type": "tablet",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX003",
+      "timestamp": "2024-11-04 09:45:00",
+      "amount": 82.3,
+      "merchant": {
+        "id": "M003",
+        "name": "Gas Station",
+        "category": "Gas",
+        "latitude": 37.7135,
+        "longitude": -89.399
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 37.7135,
+        "longitude": -89.399,
+        "distance_from_home": 2.0
+      },
+      "device_info": {
+        "device_id": "D003",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX004",
+      "timestamp": "2024-11-01 17:00:00",
+      "amount": 307.45,
+      "merchant": {
+        "id": "M004",
+        "name": "Department Store",
+        "category": "Retail",
+        "latitude": 37.708,
+        "longitude": -89.395
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 37.708,
+        "longitude": -89.395,
+        "distance_from_home": 4.0
+      },
+      "device_info": {
+        "device_id": "D004",
+        "type": "desktop",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX005",
+      "timestamp": "2024-10-29 10:15:00",
+      "amount": 95.5,
+      "merchant": {
+        "id": "M005",
+        "name": "Pharmacy",
+        "category": "Healthcare",
+        "latitude": 37.711,
+        "longitude": -89.396
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 37.711,
+        "longitude": -89.396,
+        "distance_from_home": 3.5
+      },
+      "device_info": {
+        "device_id": "D005",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX006",
+      "timestamp": "2024-10-25 11:30:00",
+      "amount": 60.0,
+      "merchant": {
+        "id": "M006",
+        "name": "Hardware Store",
+        "category": "Home Improvement",
+        "latitude": 37.715,
+        "longitude": -89.397
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 37.715,
+        "longitude": -89.397,
+        "distance_from_home": 2.5
+      },
+      "device_info": {
+        "device_id": "D006",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX007",
+      "timestamp": "2024-11-03 16:45:00",
+      "amount": 135.25,
+      "merchant": {
+        "id": "M007",
+        "name": "Garden Center",
+        "category": "Home Improvement",
+        "latitude": 37.7185,
+        "longitude": -89.3995
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 37.7185,
+        "longitude": -89.3995,
+        "distance_from_home": 5.0
+      },
+      "device_info": {
+        "device_id": "D007",
+        "type": "tablet",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX008",
+      "timestamp": "2024-11-04 15:00:00",
+      "amount": 245.6,
+      "merchant": {
+        "id": "M008",
+        "name": "Clothing Store",
+        "category": "Retail",
+        "latitude": 37.732,
+        "longitude": -89.34
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 37.732,
+        "longitude": -89.34,
+        "distance_from_home": 8.0
+      },
+      "device_info": {
+        "device_id": "D008",
+        "type": "desktop",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX009",
+      "timestamp": "2024-10-28 12:30:00",
+      "amount": 370.15,
+      "merchant": {
+        "id": "M009",
+        "name": "Truck Stop",
+        "category": "Gas",
+        "latitude": 37.8,
+        "longitude": -89.3
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 37.8,
+        "longitude": -89.3,
+        "distance_from_home": 15.0
+      },
+      "device_info": {
+        "device_id": "D009",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX010",
+      "timestamp": "2024-11-04 18:30:00",
+      "amount": 240.0,
+      "merchant": {
+        "id": "M010",
+        "name": "Hardware Store",
+        "category": "Home Improvement",
+        "latitude": 37.72,
+        "longitude": -89.35
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 37.72,
+        "longitude": -89.35,
+        "distance_from_home": 10.0
+      },
+      "device_info": {
+        "device_id": "D010",
+        "type": "tablet",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    }
+  ]
+}

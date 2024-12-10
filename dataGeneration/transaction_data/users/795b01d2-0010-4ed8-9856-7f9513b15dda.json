@@ -1,0 +1,311 @@
+{
+  "user_profile": {
+    "user_id": "795b01d2-0010-4ed8-9856-7f9513b15dda",
+    "archetype": "Rural Resident",
+    "home_address": {
+      "latitude": 25.7315,
+      "longitude": -90.7011
+    },
+    "preferred_categories": [
+      "Gas",
+      "Grocery",
+      "Hardware",
+      "Agriculture",
+      "Automotive"
+    ],
+    "avg_transaction_amount": 100.0,
+    "credit_score": 750
+  },
+  "transactions": [
+    {
+      "transaction_id": "TX001",
+      "timestamp": "2024-10-30 08:15:00",
+      "amount": 45.8,
+      "merchant": {
+        "id": "M001",
+        "name": "Local Gas Station",
+        "category": "Gas",
+        "latitude": 25.74,
+        "longitude": -90.71
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 25.74,
+        "longitude": -90.71,
+        "distance_from_home": 1.5
+      },
+      "device_info": {
+        "device_id": "D001",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX002",
+      "timestamp": "2024-10-31 07:45:00",
+      "amount": 150.0,
+      "merchant": {
+        "id": "M002",
+        "name": "Supermarket",
+        "category": "Grocery",
+        "latitude": 25.73,
+        "longitude": -90.7015
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 25.73,
+        "longitude": -90.7015,
+        "distance_from_home": 0.5
+      },
+      "device_info": {
+        "device_id": "D002",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX003",
+      "timestamp": "2024-11-01 16:00:00",
+      "amount": 80.0,
+      "merchant": {
+        "id": "M003",
+        "name": "Truck Stop",
+        "category": "Gas",
+        "latitude": 25.735,
+        "longitude": -90.702
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 25.735,
+        "longitude": -90.702,
+        "distance_from_home": 0.8
+      },
+      "device_info": {
+        "device_id": "D003",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX004",
+      "timestamp": "2024-11-02 18:30:00",
+      "amount": 200.0,
+      "merchant": {
+        "id": "M004",
+        "name": "Wholesale Club",
+        "category": "Grocery",
+        "latitude": 25.75,
+        "longitude": -90.7105
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 25.75,
+        "longitude": -90.7105,
+        "distance_from_home": 3.5
+      },
+      "device_info": {
+        "device_id": "D004",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX005",
+      "timestamp": "2024-11-03 10:00:00",
+      "amount": 65.25,
+      "merchant": {
+        "id": "M005",
+        "name": "Repair Shop",
+        "category": "Automotive",
+        "latitude": 25.76,
+        "longitude": -90.715
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 25.76,
+        "longitude": -90.715,
+        "distance_from_home": 4.0
+      },
+      "device_info": {
+        "device_id": "D005",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX006",
+      "timestamp": "2024-11-04 09:00:00",
+      "amount": 120.75,
+      "merchant": {
+        "id": "M006",
+        "name": "Local Hardware Store",
+        "category": "Hardware",
+        "latitude": 25.7405,
+        "longitude": -90.694
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 25.7405,
+        "longitude": -90.694,
+        "distance_from_home": 2.0
+      },
+      "device_info": {
+        "device_id": "D006",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX007",
+      "timestamp": "2024-11-04 17:30:00",
+      "amount": 188.9,
+      "merchant": {
+        "id": "M007",
+        "name": "Agricultural Supplies",
+        "category": "Agriculture",
+        "latitude": 25.745,
+        "longitude": -90.705
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 25.745,
+        "longitude": -90.705,
+        "distance_from_home": 2.5
+      },
+      "device_info": {
+        "device_id": "D007",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX008",
+      "timestamp": "2024-11-05 10:00:00",
+      "amount": 40.99,
+      "merchant": {
+        "id": "M008",
+        "name": "Car Wash",
+        "category": "Automotive",
+        "latitude": 25.73,
+        "longitude": -90.7
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 25.73,
+        "longitude": -90.7,
+        "distance_from_home": 0.3
+      },
+      "device_info": {
+        "device_id": "D008",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX009",
+      "timestamp": "2024-11-06 18:00:00",
+      "amount": 95.4,
+      "merchant": {
+        "id": "M009",
+        "name": "Grocery Store",
+        "category": "Grocery",
+        "latitude": 25.785,
+        "longitude": -90.65
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 25.785,
+        "longitude": -90.65,
+        "distance_from_home": 10.0
+      },
+      "device_info": {
+        "device_id": "D009",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX010",
+      "timestamp": "2024-11-07 09:30:00",
+      "amount": 165.5,
+      "merchant": {
+        "id": "M010",
+        "name": "Farm Supply Store",
+        "category": "Agriculture",
+        "latitude": 25.9,
+        "longitude": -90.6
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 25.9,
+        "longitude": -90.6,
+        "distance_from_home": 30.0
+      },
+      "device_info": {
+        "device_id": "D010",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    }
+  ]
+}

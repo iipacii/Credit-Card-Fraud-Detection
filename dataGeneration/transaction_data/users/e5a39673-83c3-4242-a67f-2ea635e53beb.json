@@ -1,0 +1,312 @@
+{
+  "user_profile": {
+    "user_id": "e5a39673-83c3-4242-a67f-2ea635e53beb",
+    "archetype": "Suburban Family",
+    "home_address": {
+      "latitude": 31.49865202296571,
+      "longitude": -103.14073068248987
+    },
+    "preferred_categories": [
+      "Grocery",
+      "Retail",
+      "Gas",
+      "Healthcare",
+      "Department Stores",
+      "Home Improvement"
+    ],
+    "avg_transaction_amount": 100.0,
+    "credit_score": 750
+  },
+  "transactions": [
+    {
+      "transaction_id": "TX001",
+      "timestamp": "2024-11-01 10:15:00",
+      "amount": 85.75,
+      "merchant": {
+        "id": "M001",
+        "name": "Organic Store",
+        "category": "Grocery",
+        "latitude": 31.4945,
+        "longitude": -103.141
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 31.4945,
+        "longitude": -103.141,
+        "distance_from_home": 0.8
+      },
+      "device_info": {
+        "device_id": "D001",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX002",
+      "timestamp": "2024-11-02 16:45:00",
+      "amount": 220.5,
+      "merchant": {
+        "id": "M002",
+        "name": "Home Depot",
+        "category": "Home Improvement",
+        "latitude": 31.499,
+        "longitude": -103.135
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 31.499,
+        "longitude": -103.135,
+        "distance_from_home": 1.2
+      },
+      "device_info": {
+        "device_id": "D002",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX003",
+      "timestamp": "2024-11-03 14:20:00",
+      "amount": 130.0,
+      "merchant": {
+        "id": "M003",
+        "name": "Wal-Mart",
+        "category": "Retail",
+        "latitude": 31.5025,
+        "longitude": -103.131
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 31.5025,
+        "longitude": -103.131,
+        "distance_from_home": 2.4
+      },
+      "device_info": {
+        "device_id": "D003",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX004",
+      "timestamp": "2024-11-04 11:00:00",
+      "amount": 95.25,
+      "merchant": {
+        "id": "M004",
+        "name": "CVS Pharmacy",
+        "category": "Healthcare",
+        "latitude": 31.505,
+        "longitude": -103.137
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 31.505,
+        "longitude": -103.137,
+        "distance_from_home": 3.2
+      },
+      "device_info": {
+        "device_id": "D004",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX005",
+      "timestamp": "2024-11-05 09:30:00",
+      "amount": 72.5,
+      "merchant": {
+        "id": "M005",
+        "name": "Speedway Gas",
+        "category": "Gas",
+        "latitude": 31.498,
+        "longitude": -103.14
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 31.498,
+        "longitude": -103.14,
+        "distance_from_home": 0.5
+      },
+      "device_info": {
+        "device_id": "D005",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX006",
+      "timestamp": "2024-10-15 15:00:00",
+      "amount": 320.0,
+      "merchant": {
+        "id": "M006",
+        "name": "Target Store",
+        "category": "Department Stores",
+        "latitude": 31.5055,
+        "longitude": -103.1355
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 31.5055,
+        "longitude": -103.1355,
+        "distance_from_home": 3.9
+      },
+      "device_info": {
+        "device_id": "D006",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX007",
+      "timestamp": "2024-10-10 17:30:00",
+      "amount": 150.0,
+      "merchant": {
+        "id": "M007",
+        "name": "Lowe's",
+        "category": "Home Improvement",
+        "latitude": 31.507,
+        "longitude": -103.138
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 31.507,
+        "longitude": -103.138,
+        "distance_from_home": 4.1
+      },
+      "device_info": {
+        "device_id": "D007",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX008",
+      "timestamp": "2024-10-09 12:00:00",
+      "amount": 380.0,
+      "merchant": {
+        "id": "M008",
+        "name": "Best Buy",
+        "category": "Electronics Store",
+        "latitude": 31.49,
+        "longitude": -103.1405
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 31.49,
+        "longitude": -103.1405,
+        "distance_from_home": 1.5
+      },
+      "device_info": {
+        "device_id": "D008",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX009",
+      "timestamp": "2024-10-25 16:15:00",
+      "amount": 190.0,
+      "merchant": {
+        "id": "M009",
+        "name": "Family Dental Care",
+        "category": "Healthcare",
+        "latitude": 31.51,
+        "longitude": -103.142
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 31.51,
+        "longitude": -103.142,
+        "distance_from_home": 5.0
+      },
+      "device_info": {
+        "device_id": "D009",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX010",
+      "timestamp": "2024-10-30 14:00:00",
+      "amount": 75.0,
+      "merchant": {
+        "id": "M010",
+        "name": "Quick Stop Gas",
+        "category": "Gas",
+        "latitude": 31.495,
+        "longitude": -103.13
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 31.495,
+        "longitude": -103.13,
+        "distance_from_home": 2.5
+      },
+      "device_info": {
+        "device_id": "D010",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    }
+  ]
+}

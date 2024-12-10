@@ -1,0 +1,311 @@
+{
+  "user_profile": {
+    "user_id": "593597f3-3ac2-4809-9b3c-4ade4b662a32",
+    "archetype": "Healthcare Worker",
+    "home_address": {
+      "latitude": 30.11231118415236,
+      "longitude": -80.2450221188168
+    },
+    "preferred_categories": [
+      "Grocery",
+      "Restaurant",
+      "Healthcare",
+      "Gas",
+      "Coffee Shops"
+    ],
+    "avg_transaction_amount": 100.0,
+    "credit_score": 750
+  },
+  "transactions": [
+    {
+      "transaction_id": "TX001",
+      "timestamp": "2024-11-05 08:15:00",
+      "amount": 75.35,
+      "merchant": {
+        "id": "M001",
+        "name": "Local Grocery Store",
+        "category": "Grocery",
+        "latitude": 30.11,
+        "longitude": -80.24
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 30.11,
+        "longitude": -80.24,
+        "distance_from_home": 1.5
+      },
+      "device_info": {
+        "device_id": "D001",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX002",
+      "timestamp": "2024-11-04 12:45:00",
+      "amount": 22.1,
+      "merchant": {
+        "id": "M002",
+        "name": "Fast Food Joint",
+        "category": "Restaurant",
+        "latitude": 30.114,
+        "longitude": -80.25
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 30.114,
+        "longitude": -80.25,
+        "distance_from_home": 2.3
+      },
+      "device_info": {
+        "device_id": "D002",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX003",
+      "timestamp": "2024-11-03 17:30:00",
+      "amount": 112.5,
+      "merchant": {
+        "id": "M003",
+        "name": "Pharmacy Corner",
+        "category": "Healthcare",
+        "latitude": 30.115,
+        "longitude": -80.243
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 30.115,
+        "longitude": -80.243,
+        "distance_from_home": 1.8
+      },
+      "device_info": {
+        "device_id": "D003",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX004",
+      "timestamp": "2024-11-02 19:00:00",
+      "amount": 45.75,
+      "merchant": {
+        "id": "M004",
+        "name": "Local Cafe",
+        "category": "Coffee Shops",
+        "latitude": 30.116,
+        "longitude": -80.249
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 30.116,
+        "longitude": -80.249,
+        "distance_from_home": 2.5
+      },
+      "device_info": {
+        "device_id": "D004",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX005",
+      "timestamp": "2024-11-01 10:30:00",
+      "amount": 95.4,
+      "merchant": {
+        "id": "M005",
+        "name": "Dental Office",
+        "category": "Healthcare",
+        "latitude": 30.12,
+        "longitude": -80.2405
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 30.12,
+        "longitude": -80.2405,
+        "distance_from_home": 3.0
+      },
+      "device_info": {
+        "device_id": "D005",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX006",
+      "timestamp": "2024-10-30 14:00:00",
+      "amount": 60.2,
+      "merchant": {
+        "id": "M006",
+        "name": "Gas Station Express",
+        "category": "Gas",
+        "latitude": 30.13,
+        "longitude": -80.2505
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 30.13,
+        "longitude": -80.2505,
+        "distance_from_home": 3.8
+      },
+      "device_info": {
+        "device_id": "D006",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX007",
+      "timestamp": "2024-10-29 18:15:00",
+      "amount": 200.0,
+      "merchant": {
+        "id": "M007",
+        "name": "Supermarket National",
+        "category": "Grocery",
+        "latitude": 30.14,
+        "longitude": -80.26
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 30.14,
+        "longitude": -80.26,
+        "distance_from_home": 4.5
+      },
+      "device_info": {
+        "device_id": "D007",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX008",
+      "timestamp": "2024-10-28 14:30:00",
+      "amount": 125.6,
+      "merchant": {
+        "id": "M008",
+        "name": "Nearby Bakery Cafe",
+        "category": "Coffee Shops",
+        "latitude": 30.15,
+        "longitude": -80.265
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 30.15,
+        "longitude": -80.265,
+        "distance_from_home": 5.0
+      },
+      "device_info": {
+        "device_id": "D008",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX009",
+      "timestamp": "2024-10-27 17:00:00",
+      "amount": 210.75,
+      "merchant": {
+        "id": "M009",
+        "name": "Grocery Warehouse",
+        "category": "Grocery",
+        "latitude": 30.22,
+        "longitude": -80.3
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 30.22,
+        "longitude": -80.3,
+        "distance_from_home": 13.5
+      },
+      "device_info": {
+        "device_id": "D009",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX010",
+      "timestamp": "2024-10-26 09:00:00",
+      "amount": 180.3,
+      "merchant": {
+        "id": "M010",
+        "name": "Healthy Market",
+        "category": "Grocery",
+        "latitude": 30.2,
+        "longitude": -80.31
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 30.2,
+        "longitude": -80.31,
+        "distance_from_home": 16.0
+      },
+      "device_info": {
+        "device_id": "D010",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    }
+  ]
+}

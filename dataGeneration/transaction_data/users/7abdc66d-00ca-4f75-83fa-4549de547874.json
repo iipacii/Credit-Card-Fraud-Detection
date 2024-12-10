@@ -1,0 +1,311 @@
+{
+  "user_profile": {
+    "user_id": "7abdc66d-00ca-4f75-83fa-4549de547874",
+    "archetype": "Tech-Savvy Professional",
+    "home_address": {
+      "latitude": 30.709003046219866,
+      "longitude": -78.88990838930657
+    },
+    "preferred_categories": [
+      "Electronics",
+      "Online Services",
+      "Restaurant",
+      "Entertainment",
+      "Travel"
+    ],
+    "avg_transaction_amount": 100.0,
+    "credit_score": 750
+  },
+  "transactions": [
+    {
+      "transaction_id": "TX001",
+      "timestamp": "2024-10-30 11:15:00",
+      "amount": 120.5,
+      "merchant": {
+        "id": "M001",
+        "name": "Phone Store",
+        "category": "Electronics",
+        "latitude": 30.72,
+        "longitude": -78.88
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 30.72,
+        "longitude": -78.88,
+        "distance_from_home": 1.5
+      },
+      "device_info": {
+        "device_id": "D001",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX002",
+      "timestamp": "2024-11-01 19:45:00",
+      "amount": 85.75,
+      "merchant": {
+        "id": "M002",
+        "name": "Local Diner",
+        "category": "Restaurant",
+        "latitude": 30.715,
+        "longitude": -78.895
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 30.715,
+        "longitude": -78.895,
+        "distance_from_home": 2.0
+      },
+      "device_info": {
+        "device_id": "D002",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX003",
+      "timestamp": "2024-10-28 20:00:00",
+      "amount": 200.0,
+      "merchant": {
+        "id": "M003",
+        "name": "Digital Content",
+        "category": "Online Services",
+        "latitude": 30.71,
+        "longitude": -78.89
+      },
+      "transaction_type": "online",
+      "location": {
+        "latitude": 30.71,
+        "longitude": -78.89,
+        "distance_from_home": 0.1
+      },
+      "device_info": {
+        "device_id": "D003",
+        "type": "desktop",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX004",
+      "timestamp": "2024-11-03 12:30:00",
+      "amount": 60.99,
+      "merchant": {
+        "id": "M004",
+        "name": "Software Service",
+        "category": "Online Services",
+        "latitude": 30.711,
+        "longitude": -78.891
+      },
+      "transaction_type": "online",
+      "location": {
+        "latitude": 30.711,
+        "longitude": -78.891,
+        "distance_from_home": 0.3
+      },
+      "device_info": {
+        "device_id": "D004",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX005",
+      "timestamp": "2024-11-04 21:00:00",
+      "amount": 150.0,
+      "merchant": {
+        "id": "M005",
+        "name": "Amusement Park",
+        "category": "Entertainment",
+        "latitude": 30.74,
+        "longitude": -78.88
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 30.74,
+        "longitude": -78.88,
+        "distance_from_home": 5.0
+      },
+      "device_info": {
+        "device_id": "D005",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": true
+    },
+    {
+      "transaction_id": "TX006",
+      "timestamp": "2024-10-25 15:15:00",
+      "amount": 350.0,
+      "merchant": {
+        "id": "M006",
+        "name": "Airline",
+        "category": "Travel",
+        "latitude": 31.0,
+        "longitude": -79.0
+      },
+      "transaction_type": "online",
+      "location": {
+        "latitude": 31.0,
+        "longitude": -79.0,
+        "distance_from_home": 30.0
+      },
+      "device_info": {
+        "device_id": "D006",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX007",
+      "timestamp": "2024-11-02 14:00:00",
+      "amount": 75.25,
+      "merchant": {
+        "id": "M007",
+        "name": "Movie Theater",
+        "category": "Entertainment",
+        "latitude": 30.73,
+        "longitude": -78.91
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 30.73,
+        "longitude": -78.91,
+        "distance_from_home": 3.0
+      },
+      "device_info": {
+        "device_id": "D007",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX008",
+      "timestamp": "2024-10-20 18:45:00",
+      "amount": 400.0,
+      "merchant": {
+        "id": "M008",
+        "name": "Computer Store",
+        "category": "Electronics",
+        "latitude": 30.775,
+        "longitude": -78.82
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 30.775,
+        "longitude": -78.82,
+        "distance_from_home": 15.0
+      },
+      "device_info": {
+        "device_id": "D008",
+        "type": "desktop",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX009",
+      "timestamp": "2024-11-01 22:30:00",
+      "amount": 295.5,
+      "merchant": {
+        "id": "M009",
+        "name": "Travel Agency",
+        "category": "Travel",
+        "latitude": 31.25,
+        "longitude": -79.1
+      },
+      "transaction_type": "online",
+      "location": {
+        "latitude": 31.25,
+        "longitude": -79.1,
+        "distance_from_home": 35.0
+      },
+      "device_info": {
+        "device_id": "D009",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX010",
+      "timestamp": "2024-11-04 10:00:00",
+      "amount": 500.0,
+      "merchant": {
+        "id": "M010",
+        "name": "Fine Dining",
+        "category": "Restaurant",
+        "latitude": 30.74,
+        "longitude": -78.89
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 30.74,
+        "longitude": -78.89,
+        "distance_from_home": 5.5
+      },
+      "device_info": {
+        "device_id": "D010",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": true
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "user_profile": {
+    "user_id": "7b9d0c3f-a188-42a3-b013-b3dbbaee2e07",
+    "archetype": "Digital Nomad",
+    "home_address": {
+      "latitude": 43.1676,
+      "longitude": -78.2864
+    },
+    "preferred_categories": [
+      "Travel",
+      "Coffee Shops",
+      "Co-working",
+      "Online Services",
+      "Restaurant"
+    ],
+    "avg_transaction_amount": 100.0,
+    "credit_score": 750
+  },
+  "transactions": [
+    {
+      "transaction_id": "TX101",
+      "timestamp": "2024-10-29 11:15:00",
+      "amount": 45.0,
+      "merchant": {
+        "id": "M201",
+        "name": "Local Cafe",
+        "category": "Coffee Shops",
+        "latitude": 43.168,
+        "longitude": -78.29
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 43.168,
+        "longitude": -78.29,
+        "distance_from_home": 1.5
+      },
+      "device_info": {
+        "device_id": "D201",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX102",
+      "timestamp": "2024-10-30 14:20:00",
+      "amount": 120.75,
+      "merchant": {
+        "id": "M202",
+        "name": "Bakery Cafe",
+        "category": "Coffee Shops",
+        "latitude": 43.1625,
+        "longitude": -78.293
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 43.1625,
+        "longitude": -78.293,
+        "distance_from_home": 3.0
+      },
+      "device_info": {
+        "device_id": "D201",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX103",
+      "timestamp": "2024-10-31 09:45:00",
+      "amount": 200.0,
+      "merchant": {
+        "id": "M203",
+        "name": "Car Rental Service",
+        "category": "Travel",
+        "latitude": 43.14,
+        "longitude": -78.28
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 43.14,
+        "longitude": -78.28,
+        "distance_from_home": 7.0
+      },
+      "device_info": {
+        "device_id": "D201",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX104",
+      "timestamp": "2024-11-01 18:30:00",
+      "amount": 55.5,
+      "merchant": {
+        "id": "M204",
+        "name": "Local Diner",
+        "category": "Restaurant",
+        "latitude": 43.17,
+        "longitude": -78.285
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 43.17,
+        "longitude": -78.285,
+        "distance_from_home": 2.5
+      },
+      "device_info": {
+        "device_id": "D201",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX105",
+      "timestamp": "2024-11-02 10:00:00",
+      "amount": 85.0,
+      "merchant": {
+        "id": "M205",
+        "name": "Hotel Stay",
+        "category": "Travel",
+        "latitude": 43.16,
+        "longitude": -78.31
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 43.16,
+        "longitude": -78.31,
+        "distance_from_home": 9.0
+      },
+      "device_info": {
+        "device_id": "D201",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX106",
+      "timestamp": "2024-11-03 12:15:00",
+      "amount": 300.0,
+      "merchant": {
+        "id": "M206",
+        "name": "Software Service",
+        "category": "Online Services",
+        "latitude": 43.0,
+        "longitude": -78.5
+      },
+      "transaction_type": "online",
+      "location": {
+        "latitude": 43.0,
+        "longitude": -78.5,
+        "distance_from_home": 30.0
+      },
+      "device_info": {
+        "device_id": "D201",
+        "type": "mobile",
+        "is_trusted": false
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "not_authenticated",
+        "attempts": 2
+      },
+      "is_fraud": true
+    },
+    {
+      "transaction_id": "TX107",
+      "timestamp": "2024-11-04 19:45:00",
+      "amount": 70.25,
+      "merchant": {
+        "id": "M207",
+        "name": "Digital Content",
+        "category": "Online Services",
+        "latitude": 42.9,
+        "longitude": -78.7
+      },
+      "transaction_type": "online",
+      "location": {
+        "latitude": 42.9,
+        "longitude": -78.7,
+        "distance_from_home": 50.0
+      },
+      "device_info": {
+        "device_id": "D201",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX108",
+      "timestamp": "2024-11-05 09:00:00",
+      "amount": 150.0,
+      "merchant": {
+        "id": "M208",
+        "name": "Food Truck",
+        "category": "Restaurant",
+        "latitude": 43.18,
+        "longitude": -78.28
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 43.18,
+        "longitude": -78.28,
+        "distance_from_home": 2.0
+      },
+      "device_info": {
+        "device_id": "D201",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX109",
+      "timestamp": "2024-11-06 21:00:00",
+      "amount": 250.0,
+      "merchant": {
+        "id": "M209",
+        "name": "Travel Agency",
+        "category": "Travel",
+        "latitude": 44.0,
+        "longitude": -79.0
+      },
+      "transaction_type": "online",
+      "location": {
+        "latitude": 44.0,
+        "longitude": -79.0,
+        "distance_from_home": 100.0
+      },
+      "device_info": {
+        "device_id": "D201",
+        "type": "mobile",
+        "is_trusted": false
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "not_authenticated",
+        "attempts": 2
+      },
+      "is_fraud": true
+    }
+  ]
+}

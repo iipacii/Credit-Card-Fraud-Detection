@@ -1,0 +1,311 @@
+{
+  "user_profile": {
+    "user_id": "3102f51b-d707-4cf0-9c9f-64db407117cd",
+    "archetype": "Luxury Shopper",
+    "home_address": {
+      "latitude": 36.4083,
+      "longitude": -114.7443
+    },
+    "preferred_categories": [
+      "Designer Retail",
+      "Fine Dining",
+      "Travel",
+      "Jewelry",
+      "Spa and Beauty"
+    ],
+    "avg_transaction_amount": 1000.0,
+    "credit_score": 750
+  },
+  "transactions": [
+    {
+      "transaction_id": "TX001",
+      "timestamp": "2024-10-30 12:15:00",
+      "amount": 850.75,
+      "merchant": {
+        "id": "M001",
+        "name": "Luxury Brand Store",
+        "category": "Designer Retail",
+        "latitude": 36.4183,
+        "longitude": -114.7343
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 36.4183,
+        "longitude": -114.7343,
+        "distance_from_home": 1.5
+      },
+      "device_info": {
+        "device_id": "D001",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX002",
+      "timestamp": "2024-10-28 18:45:00",
+      "amount": 1200.0,
+      "merchant": {
+        "id": "M002",
+        "name": "Fine Dining Restaurant",
+        "category": "Fine Dining",
+        "latitude": 36.412,
+        "longitude": -114.74
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 36.412,
+        "longitude": -114.74,
+        "distance_from_home": 0.8
+      },
+      "device_info": {
+        "device_id": "D002",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX003",
+      "timestamp": "2024-10-20 14:00:00",
+      "amount": 1999.99,
+      "merchant": {
+        "id": "M003",
+        "name": "High-end Department Store",
+        "category": "Designer Retail",
+        "latitude": 36.419,
+        "longitude": -114.75
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 36.419,
+        "longitude": -114.75,
+        "distance_from_home": 2.0
+      },
+      "device_info": {
+        "device_id": "D003",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX004",
+      "timestamp": "2024-11-01 11:30:00",
+      "amount": 800.25,
+      "merchant": {
+        "id": "M004",
+        "name": "Spa and Beauty Center",
+        "category": "Spa and Beauty",
+        "latitude": 36.42,
+        "longitude": -114.735
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 36.42,
+        "longitude": -114.735,
+        "distance_from_home": 3.0
+      },
+      "device_info": {
+        "device_id": "D004",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX005",
+      "timestamp": "2024-10-15 19:10:00",
+      "amount": 1450.5,
+      "merchant": {
+        "id": "M005",
+        "name": "Travel Agency",
+        "category": "Travel",
+        "latitude": 36.405,
+        "longitude": -114.74
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 36.405,
+        "longitude": -114.74,
+        "distance_from_home": 5.0
+      },
+      "device_info": {
+        "device_id": "D005",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX006",
+      "timestamp": "2024-11-02 20:00:00",
+      "amount": 700.0,
+      "merchant": {
+        "id": "M006",
+        "name": "Jewelry Store",
+        "category": "Jewelry",
+        "latitude": 36.41,
+        "longitude": -114.75
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 36.41,
+        "longitude": -114.75,
+        "distance_from_home": 4.5
+      },
+      "device_info": {
+        "device_id": "D006",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX007",
+      "timestamp": "2024-10-25 15:30:00",
+      "amount": 1300.0,
+      "merchant": {
+        "id": "M007",
+        "name": "Luxury Brand Online",
+        "category": "Designer Retail",
+        "latitude": 0.0,
+        "longitude": 0.0
+      },
+      "transaction_type": "online",
+      "location": {
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "distance_from_home": 0.0
+      },
+      "device_info": {
+        "device_id": "D007",
+        "type": "desktop",
+        "is_trusted": false
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 2
+      },
+      "is_fraud": true
+    },
+    {
+      "transaction_id": "TX008",
+      "timestamp": "2024-10-22 17:00:00",
+      "amount": 650.99,
+      "merchant": {
+        "id": "M008",
+        "name": "Car Rental Service",
+        "category": "Travel",
+        "latitude": 36.425,
+        "longitude": -114.76
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 36.425,
+        "longitude": -114.76,
+        "distance_from_home": 6.0
+      },
+      "device_info": {
+        "device_id": "D008",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    },
+    {
+      "transaction_id": "TX009",
+      "timestamp": "2024-10-29 18:30:00",
+      "amount": 2300.0,
+      "merchant": {
+        "id": "M009",
+        "name": "Luxury Designer Online",
+        "category": "Designer Retail",
+        "latitude": 0.0,
+        "longitude": 0.0
+      },
+      "transaction_type": "online",
+      "location": {
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "distance_from_home": 0.0
+      },
+      "device_info": {
+        "device_id": "D009",
+        "type": "desktop",
+        "is_trusted": false
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 2
+      },
+      "is_fraud": true
+    },
+    {
+      "transaction_id": "TX010",
+      "timestamp": "2024-10-31 13:00:00",
+      "amount": 400.0,
+      "merchant": {
+        "id": "M010",
+        "name": "Beauty Supply Store",
+        "category": "Spa and Beauty",
+        "latitude": 36.415,
+        "longitude": -114.73
+      },
+      "transaction_type": "in-person",
+      "location": {
+        "latitude": 36.415,
+        "longitude": -114.73,
+        "distance_from_home": 2.5
+      },
+      "device_info": {
+        "device_id": "D010",
+        "type": "mobile",
+        "is_trusted": true
+      },
+      "authentication": {
+        "cvv_provided": true,
+        "three_d_secure": "authenticated",
+        "attempts": 1
+      },
+      "is_fraud": false
+    }
+  ]
+}
